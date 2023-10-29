@@ -8,9 +8,23 @@ public class p2 {
             input[i - 1] = i;
         }
 
-        
+        // Process and display results
+        for (int i : input) {
+            if ((i % 3) == 0 && (i % 5) == 0) {
+                System.out.println("FizzBuzz");
+            }
 
-        // Display output results
-        System.out.print(Arrays.toString(input));
+            else if ((i % 3) == 0) {
+                System.out.println("Fizz");
+            }
+
+            else if ((i % 5) == 0) {
+                System.out.println("Buzz");
+            }
+
+            else {
+                System.out.println(i);
+            }
+        }
     }
 }

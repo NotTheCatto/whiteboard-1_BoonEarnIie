@@ -35,6 +35,7 @@ public class p3 {
         System.out.println(n1 + ", \n" + n2 + ", ");
         System.out.println(fibonacci(n1, n2, i));
 
+        input.close();
     }
 
     public static int fibonacci(int i, int j, int limit) {

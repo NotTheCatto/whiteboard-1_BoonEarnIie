@@ -31,7 +31,7 @@ public class p3 {
             input.next();
         }
 
-        // Process and dispaly results
+        // Process and display results
         System.out.println(n1 + ", \n" + n2 + ", ");
         System.out.println(fibonacci(n1, n2, i));
 
